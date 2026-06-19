@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Gold theme palette -->
+    <color name="gold_primary">#C9A227</color>
+    <color name="gold_primary_dark">#9C7D14</color>
+    <color name="gold_primary_light">#F0D98C</color>
+    <color name="gold_on_primary">#2B1D00</color>
+
+    <!-- Green accent palette -->
+    <color name="green_accent">#2E7D32</color>
+    <color name="green_accent_dark">#1B5E20</color>
+    <color name="green_accent_light">#81C784</color>
+    <color name="green_on_accent">#FFFFFF</color>
+
+    <!-- Surfaces / backgrounds -->
+    <color name="cream_background">#FFFBF0</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="text_primary">#1C1B1F</color>
+    <color name="text_secondary">#49454F</color>
+
+    <!-- Status colors -->
+    <color name="error_red">#B3261E</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+</resources>

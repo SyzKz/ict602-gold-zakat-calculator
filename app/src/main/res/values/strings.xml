@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Gold Zakat Calculator</string>
+
+    <!-- Main screen -->
+    <string name="label_weight">Gold Weight (grams)</string>
+    <string name="hint_weight">e.g. 120.5</string>
+    <string name="label_gold_type">Gold Type</string>
+    <string name="label_gold_value">Current Gold Value (RM per gram)</string>
+    <string name="hint_gold_value">e.g. 320.00</string>
+    <string name="btn_calculate">Calculate Zakat</string>
+    <string name="results_title">Calculation Result</string>
+    <string name="label_total_gold_value">Total Gold Value</string>
+    <string name="label_zakat_payable_value">Zakat Payable Value</string>
+    <string name="label_total_zakat">Total Zakat (2.5%)</string>
+    <string name="placeholder_rm">RM 0.00</string>
+
+    <string-array name="gold_type_array">
+        <item>Keep (Simpanan) — Uruf 85g</item>
+        <item>Wear (Pakai) — Uruf 200g</item>
+    </string-array>
+
+    <!-- Validation messages -->
+    <string name="error_weight_empty">Please enter the gold weight.</string>
+    <string name="error_value_empty">Please enter the current gold value per gram.</string>
+    <string name="error_weight_invalid">Please enter a valid number for weight.</string>
+    <string name="error_value_invalid">Please enter a valid number for gold value.</string>
+    <string name="error_weight_negative">Gold weight cannot be negative.</string>
+    <string name="error_value_negative">Gold value cannot be negative.</string>
+    <string name="msg_calculation_success">Zakat calculated successfully.</string>
+
+    <!-- About screen -->
+    <string name="about_title">About</string>
+    <string name="about_app_name">Gold Zakat Calculator</string>
+    <string name="about_version">Version 1.0</string>
+    <string name="about_developer_label">Developer Name:</string>
+    <string name="about_developer_name">Syaza Iwani Binti Zulkefli</string>
+    <string name="about_group_label">Programme Group:</string>
+    <string name="about_group_value">CDCS240/5B</string>
+    <string name="about_course_label">Course:</string>
+    <string name="about_course">ICT602 Mobile Technology</string>
+    <string name="about_info_label">Application Information:</string>
+    <string name="about_info_text">This application calculates zakat payable for gold based on gold weight, gold category (Keep or Wear), and current gold value per gram.</string>
+    <string name="about_copyright">Copyright © 2026 Syaza Iwani Binti Zulkefli.\nAll Rights Reserved.</string>
+    <string name="about_github_label">Project Website:</string>
+    <string name="about_github_url">https://github.com/SyzKz/ict602-gold-zakat-calculator</string>
+
+    <!-- Menu -->
+    <string name="menu_share">Share</string>
+    <string name="menu_about">About</string>
+    <string name="share_text">Check out my Gold Zakat Calculator App: https://github.com/SyzKz/ict602-gold-zakat-calculator</string>
+    <string name="share_chooser_title">Share Gold Zakat Calculator</string>
+
+</resources>

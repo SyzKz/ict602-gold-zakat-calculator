@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.4\\com.uitm.ict602.goldzakat.app-merged_res-31:\\menu_menu_main.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.4\\com.uitm.ict602.goldzakat.app-main-33:\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.4\\com.uitm.ict602.goldzakat.app-merged_res-31:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.4\\com.uitm.ict602.goldzakat.app-main-33:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "com.uitm.ict602.goldzakat.app-merged_res-31:/layout_activity_about.xml.flat",
+        "source": "com.uitm.ict602.goldzakat.app-main-33:/layout/activity_about.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.4\\com.uitm.ict602.goldzakat.app-merged_res-31:\\drawable_spinner_outline.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.4\\com.uitm.ict602.goldzakat.app-main-33:\\drawable\\spinner_outline.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.4\\com.uitm.ict602.goldzakat.app-merged_res-31:\\layout_activity_about.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.4\\com.uitm.ict602.goldzakat.app-main-33:\\layout\\activity_about.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.4\\com.uitm.ict602.goldzakat.app-merged_res-31:\\layout_spinner_item.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.4\\com.uitm.ict602.goldzakat.app-main-33:\\layout\\spinner_item.xml"
+    }
+]

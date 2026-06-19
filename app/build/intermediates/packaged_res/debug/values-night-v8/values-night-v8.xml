@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.GoldZakatCalculator" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/gold_primary_light</item>
+        <item name="colorOnPrimary">@color/gold_on_primary</item>
+        <item name="colorPrimaryContainer">@color/gold_primary_dark</item>
+        <item name="colorOnPrimaryContainer">@color/gold_primary_light</item>
+
+        <item name="colorSecondary">@color/green_accent_light</item>
+        <item name="colorOnSecondary">@color/green_accent_dark</item>
+
+        <item name="android:statusBarColor">@color/gold_primary_dark</item>
+        <item name="android:windowBackground">@color/black</item>
+        <item name="colorSurface">#1C1B1F</item>
+        <item name="colorOnSurface">@color/white</item>
+
+        <item name="colorError">@color/error_red</item>
+        <item name="actionBarStyle">@style/Widget.GoldZakat.ActionBar</item>
+    </style>
+</resources>
