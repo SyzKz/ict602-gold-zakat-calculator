@@ -2006,6 +2006,7 @@
     <string description="An accessibility feedback when the bottom sheet drag handle is clicked [CHAR LIMIT=NONE]" name="bottomsheet_drag_handle_clicked">Drag handle double-tapped</string>
     <string description="The content description of bottom sheet drag handles [CHAR LIMIT=NONE]" name="bottomsheet_drag_handle_content_description">Drag handle</string>
     <string name="btn_calculate">Calculate Zakat</string>
+    <string name="btn_reset">Reset</string>
     <string name="call_notification_answer_action">Answer</string>
     <string name="call_notification_answer_video_action">Video</string>
     <string name="call_notification_decline_action">Decline</string>
@@ -2034,6 +2035,8 @@
     <string name="hint_gold_value">e.g. 320.00</string>
     <string name="hint_weight">e.g. 120.5</string>
     <string description="Content description for an icon that appears in the title area of a dialog" name="icon_content_description">Dialog Icon</string>
+    <string name="info_no_zakat">No Zakat is required as the weight (%1$.2f g) does not exceed the Uruf threshold (%2$.2f g) for this category.</string>
+    <string name="info_recalculate">Note: Please click Calculate again if you change any input or gold type.</string>
     <string name="item_view_role_description">Tab</string>
     <string name="label_gold_type">Gold Type</string>
     <string name="label_gold_value">Current Gold Value (RM per gram)</string>
@@ -2082,6 +2085,7 @@
     <string name="menu_about">About</string>
     <string name="menu_share">Share</string>
     <string name="msg_calculation_success">Zakat calculated successfully.</string>
+    <string name="msg_reset_success">Fields cleared.</string>
     <string description="Content description for new notification (no number count) [CHAR_LIMIT=NONE]" name="mtrl_badge_numberless_content_description">New notification</string>
     <string name="mtrl_checkbox_button_icon_path_checked" translatable="false">M14,18.2 11.4,15.6 10,17 14,21 22,13 20.6,11.6z</string>
     <string name="mtrl_checkbox_button_icon_path_group_name" translatable="false">icon</string>

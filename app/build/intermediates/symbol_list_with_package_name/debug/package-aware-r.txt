@@ -3192,6 +3192,7 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id btnCalculate
+id btnReset
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3573,6 +3574,7 @@ id transition_scene_layoutid_cache
 id transition_transform
 id triangle
 id tvGithubLink
+id tvStatusMessage
 id tvTotalGoldValue
 id tvTotalZakat
 id tvZakatPayableValue
@@ -3848,6 +3850,7 @@ string bottomsheet_action_expand_halfway
 string bottomsheet_drag_handle_clicked
 string bottomsheet_drag_handle_content_description
 string btn_calculate
+string btn_reset
 string call_notification_answer_action
 string call_notification_answer_video_action
 string call_notification_decline_action
@@ -3874,6 +3877,8 @@ string hide_bottom_view_on_scroll_behavior
 string hint_gold_value
 string hint_weight
 string icon_content_description
+string info_no_zakat
+string info_recalculate
 string item_view_role_description
 string label_gold_type
 string label_gold_value
@@ -3922,6 +3927,7 @@ string material_timepicker_text_input_mode_description
 string menu_about
 string menu_share
 string msg_calculation_success
+string msg_reset_success
 string mtrl_badge_numberless_content_description
 string mtrl_checkbox_button_icon_path_checked
 string mtrl_checkbox_button_icon_path_group_name

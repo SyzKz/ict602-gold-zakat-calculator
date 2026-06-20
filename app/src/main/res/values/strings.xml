@@ -10,11 +10,14 @@
     <string name="label_gold_value">Current Gold Value (RM per gram)</string>
     <string name="hint_gold_value">e.g. 320.00</string>
     <string name="btn_calculate">Calculate Zakat</string>
+    <string name="btn_reset">Reset</string>
+    <string name="info_recalculate">Note: Please click Calculate again if you change any input or gold type.</string>
     <string name="results_title">Calculation Result</string>
     <string name="label_total_gold_value">Total Gold Value</string>
     <string name="label_zakat_payable_value">Zakat Payable Value</string>
     <string name="label_total_zakat">Total Zakat (2.5%)</string>
     <string name="placeholder_rm">RM 0.00</string>
+    <string name="info_no_zakat">No Zakat is required as the weight (%1$.2f g) does not exceed the Uruf threshold (%2$.2f g) for this category.</string>
 
     <string-array name="gold_type_array">
         <item>Keep (Simpanan) — Uruf 85g</item>
@@ -29,6 +32,7 @@
     <string name="error_weight_negative">Gold weight cannot be negative.</string>
     <string name="error_value_negative">Gold value cannot be negative.</string>
     <string name="msg_calculation_success">Zakat calculated successfully.</string>
+    <string name="msg_reset_success">Fields cleared.</string>
 
     <!-- About screen -->
     <string name="about_title">About</string>

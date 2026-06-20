@@ -27,6 +27,9 @@ public final class ActivityMainBinding implements ViewBinding {
   public final MaterialButton btnCalculate;
 
   @NonNull
+  public final MaterialButton btnReset;
+
+  @NonNull
   public final TextInputEditText etGoldValue;
 
   @NonNull
@@ -42,6 +45,9 @@ public final class ActivityMainBinding implements ViewBinding {
   public final TextInputLayout tilWeight;
 
   @NonNull
+  public final TextView tvStatusMessage;
+
+  @NonNull
   public final TextView tvTotalGoldValue;
 
   @NonNull
@@ -51,17 +57,20 @@ public final class ActivityMainBinding implements ViewBinding {
   public final TextView tvZakatPayableValue;
 
   private ActivityMainBinding(@NonNull ScrollView rootView, @NonNull MaterialButton btnCalculate,
-      @NonNull TextInputEditText etGoldValue, @NonNull TextInputEditText etWeight,
-      @NonNull Spinner spinnerGoldType, @NonNull TextInputLayout tilGoldValue,
-      @NonNull TextInputLayout tilWeight, @NonNull TextView tvTotalGoldValue,
+      @NonNull MaterialButton btnReset, @NonNull TextInputEditText etGoldValue,
+      @NonNull TextInputEditText etWeight, @NonNull Spinner spinnerGoldType,
+      @NonNull TextInputLayout tilGoldValue, @NonNull TextInputLayout tilWeight,
+      @NonNull TextView tvStatusMessage, @NonNull TextView tvTotalGoldValue,
       @NonNull TextView tvTotalZakat, @NonNull TextView tvZakatPayableValue) {
     this.rootView = rootView;
     this.btnCalculate = btnCalculate;
+    this.btnReset = btnReset;
     this.etGoldValue = etGoldValue;
     this.etWeight = etWeight;
     this.spinnerGoldType = spinnerGoldType;
     this.tilGoldValue = tilGoldValue;
     this.tilWeight = tilWeight;
+    this.tvStatusMessage = tvStatusMessage;
     this.tvTotalGoldValue = tvTotalGoldValue;
     this.tvTotalZakat = tvTotalZakat;
     this.tvZakatPayableValue = tvZakatPayableValue;
@@ -100,6 +109,12 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.btnReset;
+      MaterialButton btnReset = ViewBindings.findChildViewById(rootView, id);
+      if (btnReset == null) {
+        break missingId;
+      }
+
       id = R.id.etGoldValue;
       TextInputEditText etGoldValue = ViewBindings.findChildViewById(rootView, id);
       if (etGoldValue == null) {
@@ -130,6 +145,12 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.tvStatusMessage;
+      TextView tvStatusMessage = ViewBindings.findChildViewById(rootView, id);
+      if (tvStatusMessage == null) {
+        break missingId;
+      }
+
       id = R.id.tvTotalGoldValue;
       TextView tvTotalGoldValue = ViewBindings.findChildViewById(rootView, id);
       if (tvTotalGoldValue == null) {
@@ -148,9 +169,9 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((ScrollView) rootView, btnCalculate, etGoldValue, etWeight,
-          spinnerGoldType, tilGoldValue, tilWeight, tvTotalGoldValue, tvTotalZakat,
-          tvZakatPayableValue);
+      return new ActivityMainBinding((ScrollView) rootView, btnCalculate, btnReset, etGoldValue,
+          etWeight, spinnerGoldType, tilGoldValue, tilWeight, tvStatusMessage, tvTotalGoldValue,
+          tvTotalZakat, tvZakatPayableValue);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

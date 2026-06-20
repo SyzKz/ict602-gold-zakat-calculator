@@ -12,7 +12,7 @@
         "source": "C:\\Users\\User\\.gradle\\daemon\\8.4\\com.uitm.ict602.goldzakat.app-main-33:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.uitm.ict602.goldzakat.app-mergeDebugResources-30:/layout/activity_about.xml",
-        "source": "com.uitm.ict602.goldzakat.app-main-33:/layout/activity_about.xml"
+        "merged": "com.uitm.ict602.goldzakat.app-mergeDebugResources-30:/layout/activity_main.xml",
+        "source": "com.uitm.ict602.goldzakat.app-main-33:/layout/activity_main.xml"
     }
 ]

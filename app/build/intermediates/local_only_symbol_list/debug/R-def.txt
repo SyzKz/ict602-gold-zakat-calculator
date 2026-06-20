@@ -20,12 +20,14 @@ drawable spinner_outline
 id action_about
 id action_share
 id btnCalculate
+id btnReset
 id etGoldValue
 id etWeight
 id spinnerGoldType
 id tilGoldValue
 id tilWeight
 id tvGithubLink
+id tvStatusMessage
 id tvTotalGoldValue
 id tvTotalZakat
 id tvZakatPayableValue
@@ -49,6 +51,7 @@ string about_title
 string about_version
 string app_name
 string btn_calculate
+string btn_reset
 string error_value_empty
 string error_value_invalid
 string error_value_negative
@@ -57,6 +60,8 @@ string error_weight_invalid
 string error_weight_negative
 string hint_gold_value
 string hint_weight
+string info_no_zakat
+string info_recalculate
 string label_gold_type
 string label_gold_value
 string label_total_gold_value
@@ -66,6 +71,7 @@ string label_zakat_payable_value
 string menu_about
 string menu_share
 string msg_calculation_success
+string msg_reset_success
 string placeholder_rm
 string results_title
 string share_chooser_title
